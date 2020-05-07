@@ -1,0 +1,27 @@
+.page-header-content {
+	height: 4rem !important;
+}
+
+.sidebar:not(.sidebar-component) .sidebar-content {
+	overflow-y: auto !important;
+}
+
+.card-block {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1 1 auto;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+	padding: 1.25rem;
+}
+
+
+
+@media print {
+
+	.navbar,
+	.sidebar,
+	.page-header,
+	button.btn-light {
+		display: none !important;
+	}
+}

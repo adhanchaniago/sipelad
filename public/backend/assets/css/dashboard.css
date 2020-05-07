@@ -1,0 +1,39 @@
+.dashboard-stat {
+	position: relative;
+}
+
+.visual>i {
+	position: relative;
+	top: 25px;
+	margin-left: -30px !important;
+	font-size: 100px;
+	line-height: 80px;
+	color: #FFF;
+	opacity: .1;
+}
+
+.detail {
+	position: absolute;
+	top: 25px;
+	right: 1px;
+	padding-right: 10px;
+}
+
+.number {
+	text-align: right;
+	font-size: 34px;
+	line-height: 36px;
+	letter-spacing: -1px;
+	margin-bottom: 0;
+	font-weight: 300;
+	color: #FFF;
+}
+
+.card-header:not([class*=bg-]):not([class*=alpha-]) {
+	padding-top: .8rem;
+	padding-bottom: .8rem;
+}
+
+.net-worth {
+	border-bottom: 1px solid rgba(0, 0, 0, .125) !important;
+}
